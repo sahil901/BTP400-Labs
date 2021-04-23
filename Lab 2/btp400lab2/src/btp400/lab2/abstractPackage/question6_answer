@@ -1,0 +1,25 @@
+* Using Abstract, the classes extends that Abstract Class which was
+previously implements for the Interface.
+
+##### Interface
+
+Pros: Multiple Inheritance possible.
+
+Cons: No default member variable or method can be declared. 
+So, it generates redundant member variable.
+
+##### Abstract Class
+
+Pros: Default member variable and method body can be declared .
+
+Cons: A class can extend at most one abstract class.
+
+
+
+For, this use case Abstract Class implementation will be suitable.
+As it reduces redundant Tag declaration in the class.
+
+
+* Abstract classes should be used when the extended classes are expected to have shared functionality or are related in behaviors
+ * and an interface is best used when the implementing classes have different functions to each other but can share a similar
+ * action. In this use case, I think it would be best to use interface.
